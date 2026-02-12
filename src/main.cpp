@@ -31,8 +31,8 @@ void setup()
   Serial.println();
 
 
-  Wire.begin();
-  Wire1.begin();
+  Wire.begin(18, 19);
+  Wire1.begin(21, 22);
 
 
   ASL.begin(4);  //  set direction pin.
